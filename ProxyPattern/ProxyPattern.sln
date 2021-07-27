@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "ProxyPattern.csproj", "{A85984E3-853C-42DE-9370-D54E51D90DFE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyClient", "ProxyClient.csproj", "{A85984E3-853C-42DE-9370-D54E51D90DFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyServer", "..\ProxyServer\ProxyServer.csproj", "{82F2629C-D33A-49D3-9A03-6714CE8CB7C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A85984E3-853C-42DE-9370-D54E51D90DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A85984E3-853C-42DE-9370-D54E51D90DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A85984E3-853C-42DE-9370-D54E51D90DFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F2629C-D33A-49D3-9A03-6714CE8CB7C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F2629C-D33A-49D3-9A03-6714CE8CB7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F2629C-D33A-49D3-9A03-6714CE8CB7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F2629C-D33A-49D3-9A03-6714CE8CB7C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

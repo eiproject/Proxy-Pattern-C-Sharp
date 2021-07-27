@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A85984E3-853C-42DE-9370-D54E51D90DFE}</ProjectGuid>
+    <ProjectGuid>{82F2629C-D33A-49D3-9A03-6714CE8CB7C8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ProxyPattern</RootNamespace>
-    <AssemblyName>ProxyPattern</AssemblyName>
+    <RootNamespace>ProxyServer</RootNamespace>
+    <AssemblyName>ProxyServer</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business\IObject.cs" />
+    <Compile Include="Models\Student.cs" />
+    <Compile Include="Models\StudentGroup.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Run.cs" />
+    <Compile Include="Business\Proxy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
