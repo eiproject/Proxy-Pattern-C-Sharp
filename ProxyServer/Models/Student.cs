@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ProxyServer.Models {
-  class Student {
+  public class Student {
     private string _name;
     private string _idNumber;
 
@@ -15,6 +15,9 @@ namespace ProxyServer.Models {
     internal Student(string name, string id) {
       _name = name;
       _idNumber = id;
+    }
+    public void Print() {
+      Console.WriteLine($"{_name}\t{_idNumber}");
     }
   }
 }

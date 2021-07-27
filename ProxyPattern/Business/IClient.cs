@@ -4,8 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProxyPattern {
+namespace ProxyClient.Business {
   interface IClient {
-    void Execute();
+    void CreateData(string name, string id);
+    void ReadData();
+    void TestConnection();
   }
 }

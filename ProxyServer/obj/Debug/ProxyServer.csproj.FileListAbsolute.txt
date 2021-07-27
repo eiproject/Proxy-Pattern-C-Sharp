@@ -1,0 +1,7 @@
+C:\Lab Formulatrix\ProxyPattern\ProxyServer\bin\Debug\ProxyServer.exe.config
+C:\Lab Formulatrix\ProxyPattern\ProxyServer\bin\Debug\ProxyServer.exe
+C:\Lab Formulatrix\ProxyPattern\ProxyServer\bin\Debug\ProxyServer.pdb
+C:\Lab Formulatrix\ProxyPattern\ProxyServer\obj\Debug\ProxyServer.csproj.AssemblyReference.cache
+C:\Lab Formulatrix\ProxyPattern\ProxyServer\obj\Debug\ProxyServer.csproj.CoreCompileInputs.cache
+C:\Lab Formulatrix\ProxyPattern\ProxyServer\obj\Debug\ProxyServer.exe
+C:\Lab Formulatrix\ProxyPattern\ProxyServer\obj\Debug\ProxyServer.pdb

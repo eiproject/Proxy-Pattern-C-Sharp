@@ -6,8 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ProxyServer.Business {
-  interface IObject {
-    Student UpdateRequest();
-    List<Student> ReadRequest();
+  public interface IProxy {
+    Student CreateRequest(string name, string id);
+    StudentGroup ReadRequest();
+    void TestConnection();
   }
 }
